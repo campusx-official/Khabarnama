@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/card"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/navigationbg"
+            android:id="@+id/poster"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Covid Testing On Demand Top Medical Bodys New Advisory For States"
+            android:textSize="24dp"
+            android:padding="10dp"
+            android:id="@+id/headline"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No emergency procedure (including deliveries) should be delayed for lack of tests, and pregnant women should not be referred for a"
+            android:paddingLeft="10dp"
+            android:textSize="18dp"
+            android:paddingBottom="15dp"
+            android:id="@+id/description"></TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="India Today"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:id="@+id/source"></TextView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/share"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"></ImageView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

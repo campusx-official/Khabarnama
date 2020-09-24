@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "367525052999",
+    "firebase_url": "https://khabarnama-9a1ba.firebaseio.com",
+    "project_id": "khabarnama-9a1ba",
+    "storage_bucket": "khabarnama-9a1ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367525052999:android:df86a8497fd2b1d8cba762",
+        "android_client_info": {
+          "package_name": "com.example.khabarnama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367525052999-5g5jc0ls0dg413r6qa3u7i9m2qtmhkhn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.khabarnama",
+            "certificate_hash": "b5f0a7191c22c998ee8d6b8ae8bacd32f0acc99a"
+          }
+        },
+        {
+          "client_id": "367525052999-vnqrdeu28bmb57ie86aab7lcm0qr4od3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVqj89wNEDxTwuzwsDAisDo-EjJQBY50s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367525052999-vnqrdeu28bmb57ie86aab7lcm0qr4od3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

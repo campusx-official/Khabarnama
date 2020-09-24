@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/trending"
+        android:title="Trending"
+        android:icon="@drawable/trending"></item>
+
+    <item android:id="@+id/business"
+        android:title="Business"
+        android:icon="@drawable/business"></item>
+
+    <item android:id="@+id/tech"
+        android:title="Technology"
+        android:icon="@drawable/tech"></item>
+
+    <item android:id="@+id/entertainment"
+        android:title="Entertainment"
+        android:icon="@drawable/entertainment"></item>
+
+    <item android:id="@+id/sports"
+        android:title="Sports"
+        android:icon="@drawable/sports"></item>
+</menu>
